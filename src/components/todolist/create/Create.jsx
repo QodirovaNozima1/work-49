@@ -32,8 +32,6 @@ const Create = () => {
             <input placeholder='Lastname..'  required value={user.lastname} onChange={event => setUser({ ...user, lastname: event.target.value })} className='border bg-gray-100 w-60 h-10 rounded-md p-2 outline-none text-gray-500 font-mono text-sm' type="text" />
             <input placeholder='Profession'  required value={user.profession} onChange={event => setUser({ ...user, profession: event.target.value })} className='border bg-gray-100 w-60 h-10 rounded-md p-2 outline-none text-gray-500 font-mono text-sm' type="text" />
             <input placeholder='Birthdate'  required value={user.birthDate} onChange={event => setUser({ ...user, birthDate: event.target.value })} className='border bg-gray-100 w-60 h-10 rounded-md p-2 outline-none text-gray-500 font-mono text-sm' type="text" />
-            <input placeholder='Gender'  required value={user.gender} onChange={event => setUser({ ...user, gender: event.target.value })} className='border bg-gray-100 w-60 h-10 rounded-md p-2 outline-none text-gray-500 font-mono text-sm' type="text" />
-            <input placeholder='Bio'  required value={user.bio} onChange={event => setUser({ ...user, bio: event.target.value })} className='border bg-gray-100 w-60 h-10 rounded-md p-2 outline-none text-gray-500 font-mono text-sm' type="text" />
             <button className="w-60 h-10 mt-10 rounded-md bg-gradient-to-t from-cyan-500 to-orange-100 border-2 shadow-lg shadow-orange-300/50 text-white font-sans text-xl p-2 border-none" type='submit'>Create</button>
           </form>
         </div>
